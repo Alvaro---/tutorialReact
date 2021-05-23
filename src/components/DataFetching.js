@@ -14,6 +14,11 @@ function DataFetching(props) {
           setToDos(toDos.ToDos);
       }*/
 
+    const removeToDo =(e)=>{
+        //props.removeItem(e.target.getAttribute("data-index"))
+        props.removeItem(e.target.getAttribute("data-index"))
+    }
+
     return (
         //tDos.map(tDo =>
         <div className="col-md-4">
@@ -27,6 +32,9 @@ function DataFetching(props) {
                 <div className="card-body">
                     <p>{props.descripcion}</p>
                     <p><mark>Enargado: {props.responsable}</mark></p>
+                </div>
+                <div className="card-footer">
+                    <button key={props.index} data-index={props.index} className="btn btn-danger" onClick={removeToDo}>Borrar</button>
                 </div>
             </div>
         </div>

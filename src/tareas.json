@@ -10,28 +10,28 @@
         {
             "id":2,
             "title": "Tarea 2",
-            "Responsable": "Maria",
+            "Responsable": "MMMMM",
             "descripcion": "Lorem Ipsum 2",
             "Prioridad": "media"
         },
         {
             "id":3,
             "title": "Tarea 3",
-            "Responsable": "Jose",
+            "Responsable": "JJJJJ",
             "descripcion": "Lorem Ipsum 3",
             "Prioridad": "alta"
         },
         {
             "id":4,
             "title": "Tarea 4",
-            "Responsable": "Pepe",
+            "Responsable": "AAAAAAAAAAA",
             "descripcion": "Lorem Ipsum 4",
             "Prioridad": "Media"
         },
         {
             "id":5,
             "title": "Tarea 5",
-            "Responsable": "lovegood",
+            "Responsable": "PPPPPPPPP",
             "descripcion": "Lorem Ipsum 5",
             "Prioridad": "Alta"
         }
